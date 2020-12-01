@@ -1,12 +1,11 @@
 {
   "name": "nchain",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "js chain",
   "main": "src/index.ts",
   "repository": "https://github.com/nauy1216/jschain.git",
   "author": "liuchengyuan",
   "license": "MIT",
-  "private": false,
   "files": [
     "src/**/*"
   ],
