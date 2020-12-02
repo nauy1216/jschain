@@ -4,7 +4,7 @@
     "outDir": "dist",
     "sourceMap": false,
     "target": "esnext",
-    "module":"CommonJS",
+    "module":"ESNext",
     "moduleResolution": "node",
     "allowJs": false,
     "strict": true,
