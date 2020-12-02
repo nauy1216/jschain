@@ -10,7 +10,7 @@ const isProduct = true
 
 const outputConfigs = {
   esm: {
-    file: `lib/${name}.esm-bundler.js`,
+    file: `lib/${name}.esm.js`,
     format: `es`
   },
   cjs: {
@@ -38,8 +38,6 @@ if (isProduct) {
   })
 }
 
-console.log("==============================")
-console.log(packageConfigs)
 export default packageConfigs
 
 function createConfig(format, output, plugins = []) {
