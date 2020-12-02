@@ -1,12 +1,12 @@
 {
   "name": "nauy-jschain",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "js chain",
-  "main": "lib/index.ts",
+  "main": "lib/index.esm.js",
   "repository": "https://github.com/nauy1216/jschain.git",
   "author": "liuchengyuan",
   "license": "MIT",
-  "types": "lib/src/index.esm.js",
+  "types": "lib/src/index.d.ts",
   "files": [
     "lib/**/*"
   ],
