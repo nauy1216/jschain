@@ -6,13 +6,14 @@
   "repository": "https://github.com/nauy1216/jschain.git",
   "author": "liuchengyuan",
   "license": "MIT",
+  "type": "module",
   "types": "lib/src/index.d.ts",
   "files": [
     "lib/**/*"
   ],
   "scripts": {
     "init": "tsc --init",
-    "dev": "ts-node ./src/index.ts",
+    "dev": "rollup -c -w",
     "test": "jest --runInBand",
     "lint": "eslint --ext .ts src/*/** --fix",
     "format": "prettier --write --parser typescript \"src/**/*.ts?(x)\" \"tests/**/*.ts?(x)\"",
@@ -31,6 +32,7 @@
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
     "jest": "^26.6.3",
+    "minimist": "^1.2.5",
     "prettier": "^2.2.1",
     "rollup": "^2.34.0",
     "rollup-plugin-node-builtins": "^2.1.2",

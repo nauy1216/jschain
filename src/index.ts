@@ -4,7 +4,6 @@ import StringChain from "./chain/StringChain";
 export * from "./chain/NumberChain";
 import ObjectTransChain from "./chain/ObjectTransChain";
 export * from "./chain/NumberChain";
-console.log(new NumberChain(1).toString());
 
 export function number(value?: any) {
   return new NumberChain(value);

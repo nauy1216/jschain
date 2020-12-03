@@ -3,6 +3,7 @@ import path from 'path'
 import ts from 'rollup-plugin-typescript2'
 import replace from '@rollup/plugin-replace'
 import json from '@rollup/plugin-json'
+const args = require('minimist')(process.argv.slice(2))
 
 const packageOptions =  {}
 const name = 'index'
